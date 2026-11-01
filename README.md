@@ -9,3 +9,5 @@ cargo build --release
 really just easy, idk why i made this jus take it yo
 
 the .exe will be in \target\release
+
+also you need rust/cargo installed for this
