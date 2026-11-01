@@ -1,3 +1,3 @@
-# something something
+# Contributing
 
-- yall i aint writin allat
+- Thanks to me, myself, and i for attending this project and making this possible
