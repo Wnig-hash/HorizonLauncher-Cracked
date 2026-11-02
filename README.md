@@ -1,6 +1,8 @@
 # How do i build ts 
 
-ok idk why im doing this but i will leave NO traces of the original thing, so how to build it, or just go get it from the releases if you just wanna play.
+the original thing was made by https://github.com/ludovic111 give him a visit for the original stuff :)
+
+so how to build it, or just go get it from the releases if you just wanna play.
 
 step 1: breathe.
 
