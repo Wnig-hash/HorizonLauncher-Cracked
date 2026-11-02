@@ -6,7 +6,11 @@ so how to build it, or just go get it from the releases if you just wanna play.
 
 step 1: breathe.
 
-step 2: get your file to somewhere you know and şs easy to locate.
+step 1.5: Get Windows SDK and Cargo/rust on your device
+
+step 2: get your file to somewhere you know and is easy to locate.
+
+step 2.5: unzip the thing
 
 step 3: open cmd and run these:
 
@@ -14,6 +18,12 @@ step 3: open cmd and run these:
 - cd launcher
 - cargo build --release
 
-- You should have cargo too
-
 step 4: go to \launcher\target\release\ and you will have your .exe there. Enjoy!
+
+
+# NOTICE!
+
+the first compile could take longer than ever. Be patient (unlike me) for it.
+
+also i dont own any of this, the code is most up the horizon project (aka Minecraft Rewritten In Rust), you can find the original thing in https://github.com/horizon-rust/horizon
+- Good luck with the thing!
