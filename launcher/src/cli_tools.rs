@@ -8,21 +8,21 @@ use serde_json::{json, Map, Value};
 
 /// CLI commands that are not generated tools: the MCP server itself; No AI, the player's switch
 /// and never an agent's; trusting native mods' code, the player's decision too; the ones
-/// mcp.rs runs in the session; the game's session handoff, a file holding a token; and the
-/// sign-in that takes a password, which an agent must not pass around.
+/// mcp.rs runs in the session; and the game's session handoff, a file holding a token.
 const NOT_TOOLS: &[&str] = &[
     "mcp",
     "completions",
     "agent-config",
     "no-ai",
     "native-build",
+    // It installs a program nothing signed: the player's decision.
+    "import-build",
     // They install native code nobody reviewed, and say it first: the player's decision.
     "mods add-github",
     "mods update-github",
     "play",
     "server",
     "account sign-in",
-    "account login external",
     "account list",
     "account session",
 ];
@@ -262,9 +262,6 @@ fn session_tool(words: &str) -> &'static str {
         "mcp" => "none: this command is the MCP server",
         "agent-config" => "none: it prints how to connect a client to `mcp`",
         "account session" => "none: the game's own session handoff",
-        "account login external" => {
-            "none: it takes a password, which the player types and no agent carries"
-        }
         _ => "none: the player's switch",
     }
 }
