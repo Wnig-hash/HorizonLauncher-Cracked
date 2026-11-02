@@ -27,3 +27,9 @@ the first compile could take longer than ever. Be patient (unlike me) for it.
 
 also i dont own any of this, the code is most up the horizon project (aka Minecraft Rewritten In Rust), you can find the original thing in https://github.com/horizon-rust/horizon
 - Good luck with the thing!
+
+
+# Build tip
+
+- try to keep the project folder where that has no spaces
+- \something something\project doesnt work, should be like C:\something\project, it works. It even works on \NAME\folder\project. Whereas NAME is your name. So, could be anywhere, just no spaces.
